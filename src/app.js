@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 const mongoose = require('mongoose');
+// mongodb://localhost/estoque é a connection string do banco de dados
 mongoose.connect('mongodb://localhost/estoque', 
 {
     useNewUrlParser: true,

@@ -82,27 +82,26 @@ Depois de ter instalado as dependências, usar o comando `mongodb`
 
 ## PUT:
 
-![image]/\*\*
+
 
 - PUT atualizar entradaEntradaEstoque
 - desc. Atualizar o produto
-  \*/
+
   router.put('/:id', estoqueController.atualizarEstoque)
 
 ## PACTH:
 
-![image]/\*\*
 
 - PATCH atualizar entradaEntradaEstoque
 - desc. Atualizar o produto
-  \*/
+ 
   router.patch('/:id', estoqueController.atualizarQuantidadeEstoque);
 
 ## DELETE:
 
-![image]/\*\*
+
 
 - DELETE deleta entradaEntradaEstoque
 - desc. Excluir o produto
-  \*/
+  
   router.delete('/:id', estoqueController.excluirEstoque);
