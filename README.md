@@ -82,26 +82,75 @@ Depois de ter instalado as dependências, usar o comando `mongodb`
 
 ## PUT:
 
-
-
-- PUT atualizar entradaEntradaEstoque
 - desc. Atualizar o produto
 
-  router.put('/:id', estoqueController.atualizarEstoque)
+**Entrada**
+
+```
+  {
+	   "modelo": "Vestido Midi",
+    "cor": "Branco Off",
+    "tamanho": "G, GG",
+    "quantidade": 10
+}
+```
+**Retorno**
+
+```
+{
+  "mensagem": "Atualizado com sucesso"
+}
+
+```
 
 ## PACTH:
 
 
-- PATCH atualizar entradaEntradaEstoque
 - desc. Atualizar o produto
- 
-  router.patch('/:id', estoqueController.atualizarQuantidadeEstoque);
+
+
+**Entrada**
+
+```
+
+ {
+	   "modelo": "Vestido Midi",
+    "cor": "Branco Off",
+    "tamanho": "G, GG",
+    "quantidade": 21
+}
+
+```
+ **Retorno**
+
+```
+"Quantidade atualizada com sucesso!"
+
+```
+  
 
 ## DELETE:
 
 
-
-- DELETE deleta entradaEntradaEstoque
 - desc. Excluir o produto
+
+**Entrada**
+
+```
+
+ {
+	   "modelo": "Vestido Midi",
+    "cor": "Branco Off",
+    "tamanho": "G, GG",
+    "quantidade": 21
+}
+
+```
+
+**Retorno**
+
+```
   
-  router.delete('/:id', estoqueController.excluirEstoque);
+ "Estoque excluido com sucesso!"
+
+ ```
