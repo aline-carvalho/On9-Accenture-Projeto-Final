@@ -3,7 +3,7 @@ const app = express();
 
 const mongoose = require('mongoose');
 // mongodb://localhost/estoque é a connection string do banco de dados
-mongoose.connect('mongodb://localhost/estoque', 
+mongoose.connect('mongodb+srv://controle-de-estoque-roupas:abc-123@cluster0.e6g9q.mongodb.net/estoque?retryWrites=true&w=majority', 
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
