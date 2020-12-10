@@ -87,8 +87,9 @@ Depois de ter instalado as dependências, usar o comando `mongodb`
 **Entrada**
 
 ```
-  {
-	   "modelo": "Vestido Midi",
+
+{
+	  "modelo": "Vestido Midi",
     "cor": "Branco Off",
     "tamanho": "G, GG",
     "quantidade": 10
@@ -113,8 +114,8 @@ Depois de ter instalado as dependências, usar o comando `mongodb`
 
 ```
 
- {
-	   "modelo": "Vestido Midi",
+{
+	  "modelo": "Vestido Midi",
     "cor": "Branco Off",
     "tamanho": "G, GG",
     "quantidade": 21
@@ -138,8 +139,8 @@ Depois de ter instalado as dependências, usar o comando `mongodb`
 
 ```
 
- {
-	   "modelo": "Vestido Midi",
+{
+	 "modelo": "Vestido Midi",
     "cor": "Branco Off",
     "tamanho": "G, GG",
     "quantidade": 21
